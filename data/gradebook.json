@@ -1,0 +1,83 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Prakhar Punj"
+        },
+        {
+            "id": 2,
+            "name": "Riya Sharma"
+        },
+        {
+            "id": 3,
+            "name": "Arjun Reddy"
+        },
+        {
+            "id": 4,
+            "name": "Rahul Kumar"
+        }
+    ],
+    "courses": [
+        {
+            "code": "CS101",
+            "title": "Intro to CS"
+        },
+        {
+            "code": "DA201",
+            "title": "Data Analysis"
+        },
+        {
+            "code": "GEN101",
+            "title": "Genpact Python Basics"
+        },
+        {
+            "code": "CS201",
+            "title": "Data Structures"
+        }
+    ],
+    "enrollments": [
+        {
+            "student_id": 1,
+            "course_code": "CS101",
+            "grades": [
+                92.0,
+                88.0
+            ]
+        },
+        {
+            "student_id": 1,
+            "course_code": "DA201",
+            "grades": [
+                95.0
+            ]
+        },
+        {
+            "student_id": 2,
+            "course_code": "CS101",
+            "grades": [
+                81.0
+            ]
+        },
+        {
+            "student_id": 2,
+            "course_code": "GEN101",
+            "grades": [
+                79.0
+            ]
+        },
+        {
+            "student_id": 3,
+            "course_code": "CS101",
+            "grades": [
+                90.0
+            ]
+        },
+        {
+            "student_id": 4,
+            "course_code": "CS201",
+            "grades": [
+                95.0
+            ]
+        }
+    ]
+}
