@@ -79,33 +79,6 @@ GPA: 92.50
 
 The program also shows an error message if an invalid grade is entered or a student or course is not found.
 
-## Running tests
-
-Run this command:
-
-```bash
-python -m unittest discover -s tests -v
-```
-
-## Project structure
-
-```text
-gradebook/
-├── gradebook/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── service.py
-│   └── storage.py
-├── data/
-│   └── gradebook.json
-├── logs/
-├── scripts/
-│   └── seed.py
-├── tests/
-│   └── test_service.py
-├── main.py
-└── README.md
-```
 
 ## Design decisions & limitations
 
@@ -114,3 +87,11 @@ gradebook/
 - The GPA is calculated by taking the average of all course averages.
 - Grades must be between 0 and 100.
 - The project is made for basic use. It does not support multiple users working on it at the same time.
+
+## Running tests
+
+Run this command:
+
+```bash
+python -m unittest discover -s tests -v
+```
